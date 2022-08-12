@@ -32,7 +32,7 @@ const createThought = (req, res) => {
     .then((thought) =>
         !thought
             ? res.status(404)({message: 'User not found with that ID'})
-            : res.json(user)
+            : res.json(thought)
     )
     .catch((err) => res.status(500).json(err));
 };
