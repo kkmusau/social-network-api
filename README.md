@@ -1,14 +1,29 @@
-# Social Network API
+# Social Network API :left_speech_bubble:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Description
+## Description :pencil:
+This is an API for social network application where users can share their thought, react to friends' thoughts, 
+and create a friend list. This application uses [Express.js](https://www.npmjs.com/package/express) for routing, a `MongoDB` database, the [Mongoose](https://www.npmjs.com/package/mongoose) ODM and `Moment.js` for the Date. The seed data is created using `Insomnia`.
 
-## Table of Contents
+## Demo :desktop_computer:
 
-## Installation
 
-## Usage
 
-## License
+## Table of Contents :open_book:
+- [Description](#description-pencil)
+- [Demo](#demo-desktop_computer)
+- [Installation](#installation-electricplug)
+- [Usage](#usage-gear)
+- [License](#license-copyright)
+- [Tests](#tests-heavy_check_mark)
+- [Questions](#questions-question)
+
+## Installation :electric_plug:
+
+
+## Usage :gear:
+
+## License :copyright:
 MIT License
 
 Copyright (c) 2022 Kaluki Musau
@@ -31,5 +46,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Contributors
+## Tests :heavy_check_mark:
+
+## Questions :question:
+:octocat: Find me on Github: [kkmusau](https://github.com/kkmusau)
+:e-mail: Email me any questions at: kkmusau@gmail.com
+
 
