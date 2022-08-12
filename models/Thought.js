@@ -1,9 +1,9 @@
 const { Schema, model, Types } = require('mongoose');
 
-// formatting timestamp using moment.js
+// Formatting timestamp using moment.js
 const moment = require('moment')
 
-//reaction schema is a subdocument of Thought
+//Reaction schema is a subdocument of Thought
 const reactionSchema = new Schema (
     {
        reactionId: {
@@ -64,16 +64,16 @@ const thoughtSchema = new Schema (
 )
 
 
-// get total count of friends
+// Get the total count of friends
 thoughtSchema.virtual('reactionCount')
 .get(function() {
     return this.reactions.length;
 })
 
-// create the User model using the UserSchema
+// Create the User model using the UserSchema
 const Thought = model('Thought', thoughtSchema);
 
-// export the Thought model
+// Exporting the Thought model
 module.exports = Thought;
 
 
